@@ -1,0 +1,62 @@
+
+
+body {
+    min-height: 100vh ;
+    display: flex;
+    align-items : center ;
+    justify-content: center ;
+    background: #ffd0a8;
+    color: #333 ;
+    font-family: sans-serif ;
+    font-weight: 400 ;
+    text-transform: capitalize;
+}
+
+.container {
+    text-align: center;
+    padding: 2rem ;
+    border-radius: 5px;
+    background-color: #f7f7f7 ;
+    height:25rem;
+    width: 35rem
+    
+}
+
+.heading {
+    flex: 0 0 80% ;
+}
+
+#quoteBtn {
+    border : none ;
+    outline: none ;
+    color: white ;
+    background: #d89156 ;
+    padding: 0.25rem 0.5rem;
+    font: 1.3rem ;
+    border-radius: 7px ;
+    cursor: pointer ;
+}
+
+#quoteBtn:hover{
+    color: orangered;
+    background: white ;
+}
+
+blockquote {
+    background: #f9f9f9 ;
+    border-left: 10px solid #fcdbbf ;
+    margin: 1.5rem ;
+    padding: .5rem ;  
+    margin-top: 40px;
+}
+
+#author {
+    color: #ffd000 ;
+    margin-top: 10px;
+}
+
+
+
+
+
+
